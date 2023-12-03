@@ -94,7 +94,7 @@ function displayWeatherData(data)
         div7.style.height=300;
         div7.classList.add("id");
  
-        const div8= document.createElement("div");
+         const div8= document.createElement("div");
        div8.innerText=`wind degree: ${data.current.wind_deg}`;
         div8.style.width=200;
         div8.style.height=300;
