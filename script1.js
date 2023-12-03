@@ -98,7 +98,7 @@ function displayWeatherData(data)
        div8.innerText=`wind degree: ${data.current.wind_deg}`;
         div8.style.width=200;
         div8.style.height=300;
-        div8.classList.add("id1");
+        div8.classList.add("id");
  
 
 
