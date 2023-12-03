@@ -1,0 +1,87 @@
+.main-conatiner
+{
+    background: #360369;
+    width:100vw;
+    height:100vh;
+    display:none;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.welcome
+{
+  padding:20px;
+    font-family: Montserrat;
+font-size: 50px;
+font-weight:400;
+color:white;
+}
+
+.loc{
+    padding-left:20px;
+    color:white;
+    font-size:16px;
+}
+
+.div
+{
+    display:flex;
+}
+
+#div
+{
+    background-color: white;
+    height:400px;
+    width:100vw;
+    display:flex;
+    flex-wrap: wrap;
+}
+#long,#lat
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    margin-left:20px;
+    margin-top:10px;
+    width:180px;
+    background: #270846;
+    height:30px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.id1
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    margin-left:20px;
+    margin-top:-120px;
+    width:180px;
+    background: #270846;
+    height:30px;  
+}
+.id
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    margin-left:20px;
+    margin-top:10px;
+    width:180px;
+    background: #270846;
+    height:30px
+}
+
+#frame
+{
+    margin:10px;
+    padding-left:20px;   
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
+    <link rel="shortcut icon" href="https://image.winudf.com/v2/image1/YWguY3JlYXRpdmVjb2RlYXBwcy50aWVtcG9faWNvbl8xNjQ1ODI5NDEyXzA5Mg/icon.png?w=&fakeurl=1" type="image/x-icon">
+</head>
+
+<body>
+  <div class="main">
+    <div class="weather"> Weather API</div>
+
+    <button onclick="getLocation()">Fetch</button>
+
+  </div>
+  <div class="main-conatiner">
+    <div class="welcome">Welcome to the Weather App</div>
+    <div class="loc">Here is your current location</div>
+
+    <div class="div">
+      <div id="lat"></div>
+      <div id="long"></div>
+    </div>
+
+    <iframe id="frame" src="https://maps.google.com/maps?q=17.4504612, 78.5016645&z=15&output=embed" width="700" height="400"
+      frameborder="0" style="border:0">
+    </iframe>
+    <div id="div">
+        
+    </div>
+    
+  </div>
+
+
+
+
+
+  <script src="script1.js"></script>
+</body>
+
+</html>
